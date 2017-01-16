@@ -1,0 +1,9 @@
+C:\Users\Jose\Desktop\jnrosenb\Talleres\Taller_2\Ejemplo1\Ejemplo1\bin\Debug\Ejemplo1.exe
+C:\Users\Jose\Desktop\jnrosenb\Talleres\Taller_2\Ejemplo1\Ejemplo1\bin\Debug\Ejemplo1.pdb
+C:\Users\Jose\Desktop\jnrosenb\Talleres\Taller_2\Ejemplo1\Ejemplo1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jose\Desktop\jnrosenb\Talleres\Taller_2\Ejemplo1\Ejemplo1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jose\Desktop\jnrosenb\Talleres\Taller_2\Ejemplo1\Ejemplo1\obj\x86\Debug\Taller2.csprojResolveAssemblyReference.cache
+C:\Users\Jose\Desktop\jnrosenb\Talleres\Taller_2\Ejemplo1\Ejemplo1\obj\x86\Debug\Ejemplo1.exe
+C:\Users\Jose\Desktop\jnrosenb\Talleres\Taller_2\Ejemplo1\Ejemplo1\obj\x86\Debug\Ejemplo1.pdb
+C:\Users\Jose\Desktop\jnrosenb\Talleres\taller_3\Ejemplo1\Ejemplo1\obj\x86\Debug\Ejemplo1.exe
+C:\Users\Jose\Desktop\jnrosenb\Talleres\taller_3\Ejemplo1\Ejemplo1\obj\x86\Debug\Ejemplo1.pdb

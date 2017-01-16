@@ -1,0 +1,33 @@
+{
+    "__type__": "scene",
+    "camera": {
+        "__type__": "camera",
+        "fov": 45.0,
+        "position": [0,0,5],
+        "up": [0,1,0],
+        "target": [0,0,0],
+		"near": 4,
+		"far": 100
+    },
+    "objects": [
+        {
+            "__type__": "mesh",
+			"file_path": "sphere.obj",
+            "materials": ["blue_lambert", "white_bph_100"]
+        }
+    ],
+    "lights": [
+	   {
+          "__type__": "point_light",
+          "position": [0, 5, 5],
+          "color": [1.0, 1.0, 1.0]
+        },
+        {
+          "__type__": "ambient_light",
+          "color": [0.2, 0.2, 0.2]
+        }
+    ],
+    "params": {
+        "background_color": [1.0,1.0,1.0]
+    }
+}

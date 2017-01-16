@@ -1,0 +1,187 @@
+{
+  "__type__": "resources",
+  "materials": [
+    {
+      "__type__": "brdf_material",
+      "name": "red_lambert",
+      "color": [ 1, 0, 0 ],
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    },
+    {
+      "__type__": "brdf_material",
+      "name": "blue_lambert",
+      "color": [ 0, 0, 1 ],
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    },
+    {
+      "__type__": "brdf_material",
+      "name": "green_lambert",
+      "color": [ 0, 1, 0 ],
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    },
+    {
+      "__type__": "brdf_material",
+      "name": "yellow_lambert",
+      "color": [ 1, 1, 0 ],
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    },
+    {
+      "__type__": "brdf_material",
+      "name": "white_lambert",
+      "color": [ 1, 1, 1 ],
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    },
+    {
+      "__type__": "brdf_material",
+      "name": "gray_lambert",
+      "color": [ 0.2, 0.2, 0.2 ],
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    },
+    {
+      "__type__": "brdf_material",
+      "name": "white_bph_100",
+      "color": [ 1, 1, 1 ],
+      "brdfParams": {
+        "shininess": 100
+      },
+      "brdf": "blinnPhong"
+    },
+    {
+      "__type__": "brdf_material",
+      "name": "white_bph_1000",
+      "color": [ 1, 1, 1 ],
+      "brdfParams": {
+        "shininess": 1000
+      },
+      "brdf": "blinnPhong"
+    },
+    {
+      "__type__": "brdf_material",
+      "name": "blue_bph_1000",
+      "color": [ 0, 0, 1 ],
+      "brdfParams": {
+        "shininess": 1000
+      },
+      "brdf": "blinnPhong"
+    },
+	{
+      "__type__": "brdf_color_texture_material",
+      "name": "earth_lambert_nn",
+      "color_texture": "earth",
+	  "texture_filtering": "nearest_neighbor",
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    },
+	{
+      "__type__": "brdf_color_texture_material",
+      "name": "earth_lambert_bilinear",
+      "color_texture": "earth",
+	  "texture_filtering": "bilinear",
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    },
+	{
+      "__type__": "brdf_color_texture_material",
+      "name": "red_lambert_nn",
+      "color_texture": "red",
+	  "texture_filtering": "nearest_neighbor",
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    },
+	{
+      "__type__": "brdf_color_texture_material",
+      "name": "red_lambert_bilinear",
+      "color_texture": "red",
+	  "texture_filtering": "bilinear",
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    },
+	{
+      "__type__": "brdf_color_texture_material",
+      "name": "bricks_lambert_nn",
+      "color_texture": "bricks",
+	  "texture_filtering": "nearest_neighbor",
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    },
+	{
+      "__type__": "brdf_color_texture_material",
+      "name": "bricks_lambert_bilinear",
+      "color_texture": "bricks",
+	  "texture_filtering": "bilinear",
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    },
+	{
+      "__type__": "brdf_color_texture_material",
+      "name": "bricks_blinn_phong_bilinear",
+      "color_texture": "bricks_SPEC",
+	  "texture_filtering": "bilinear",
+      "brdfParams": {
+		"shininess": 100
+	  },
+      "brdf": "blinnPhong"
+    },
+	{
+      "__type__": "brdf_color_texture_material",
+      "name": "chess_lambert_bilinear",
+      "color_texture": "chess",
+	  "texture_filtering": "bilinear",
+      "brdfParams": { },
+      "brdf": "lambert",
+      "use_for_ambient": true
+    }
+
+  ],
+  "textures": 
+  [
+    {
+      "__type__": "color_texture",
+      "name": "earth",
+      "file_path": "textures/earthmap.jpg"
+
+    },
+	{
+      "__type__": "color_texture",
+      "name": "red",
+      "file_path": "textures/red.png"
+
+    },
+	{
+      "__type__": "color_texture",
+      "name": "bricks",
+      "file_path": "textures/bricks.jpg"
+
+    },
+	{
+      "__type__": "color_texture",
+      "name": "bricks_SPEC",
+      "file_path": "textures/bricks_SPEC.jpg"
+
+    },
+	{
+      "__type__": "color_texture",
+      "name": "chess",
+      "file_path": "textures/chess.png"
+
+    }
+  ]
+}
