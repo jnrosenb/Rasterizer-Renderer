@@ -1,5 +1,7 @@
 #Renderer por transformacion (Rasterizer)
 
+##En carpeta **Escenas de ejemplo** se encuentran imagenes con sus respectivos archivos Json de distintas escenas que se pueden renderear con el programa.
+
 **Programa al que se le entrega el nombre de un archivo json que contiene detalles de una escena, y retorna una imagen con el render de tal escena. A continuacion instrucciones de datos a entregar:**
 
 Input para el programa: 
